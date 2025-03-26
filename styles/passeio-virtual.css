@@ -1,0 +1,78 @@
+/*====  PASSEIO VIRTUAL ============================ */
+#passeio {
+    overflow: hidden;
+}
+
+#passeio .container {
+    margin: 0;
+}
+
+#passeio .video {
+    position: relative;
+}
+
+#passeio .video::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: var(--base-color-second);
+    position: absolute;
+    top: -16.8%;
+    left: 16.7%;
+    z-index: 0;
+}
+
+#passeio .video video {
+    position: relative;
+    right: 2.93rem;
+}
+
+#passeio .video video,
+#passeio .video::before {
+    border-radius: 0.25rem;
+}
+
+#passeio .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+}
+
+#passeio .text h1 {
+    margin-bottom: 1rem;
+}
+
+#passeio .text p {
+    margin-bottom: 2rem;
+}
+
+/*========= MEDIA QUERIES =========*/
+/* extra large devices: 1200 > */
+@media (min-width: 1200px) {
+
+    /* home */
+    #passeio .container {
+        grid-auto-flow: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    #passeio .video {
+        order: 1;
+    }
+
+    #passeio .text {
+        order: 0;
+        max-width: 24rem;
+        text-align: left;
+    }
+
+}
+
+/* large devices: 992 > */
+@media (min-width: 992px) {
+    :root {
+        --title-font-size: 2.25rem;
+        --subtitle-font-size: 1.125rem;
+    }
+}
