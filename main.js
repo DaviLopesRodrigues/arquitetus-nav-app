@@ -72,6 +72,7 @@ scrollReveal.reveal(
   #equipe-1 .image, #equipe-1 .text,
   #about .image, #about .text,
   #memorial header, #memorial .card,
+  #projetos header, #projetos .card,
   #externo header, #externo .externo-card
   #interno header, #interno .interno-card
   #equipe-1 header, #equipe-2 .card,
