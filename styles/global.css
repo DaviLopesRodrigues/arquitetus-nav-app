@@ -18,7 +18,7 @@ img {
     height: auto;
 }
 
-video {
+iframe {
     width: 100%;
     height: auto;
 }
@@ -337,7 +337,7 @@ footer .social a:hover {
     }
 
     .section {
-        padding: 10rem 0;
+        padding: 3.5rem 0;
     }
 
     .section header {
@@ -390,7 +390,7 @@ footer .social a:hover {
 
     /* footer */
     footer.section {
-        padding: 3.75rem 0;
+        padding: 2rem 0;
     }
 
     footer .container {

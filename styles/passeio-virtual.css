@@ -22,12 +22,12 @@
     z-index: 0;
 }
 
-#passeio .video video {
+#passeio .video iframe {
     position: relative;
     right: 2.93rem;
 }
 
-#passeio .video video,
+#passeio .video iframe,
 #passeio .video::before {
     border-radius: 0.25rem;
 }

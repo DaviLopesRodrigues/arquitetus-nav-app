@@ -11,24 +11,7 @@
     position: relative;
 }
 
-#home-aqt .image::before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    background: var(--base-color-second);
-    position: absolute;
-    top: -16.8%;
-    left: 16.7%;
-    z-index: 0;
-}
-
 #home-aqt .image img {
-    position: relative;
-    right: 2.93rem;
-}
-
-#home-aqt .image img,
-#home-aqt .image::before {
     border-radius: 0.25rem;
 }
 
@@ -81,18 +64,19 @@
     /* home */
     #home-aqt .container {
         grid-auto-flow: column;
-        justify-content: space-between;
+        justify-content: center;
         margin: 0 auto;
     }
 
     #home-aqt .image {
         order: 1;
+        margin-bottom: 2rem;
     }
 
     #home-aqt .text {
         order: 0;
-        max-width: 24rem;
-        text-align: left;
+        max-width: auto;
+        text-align: center;
     }
 
     /* contact */

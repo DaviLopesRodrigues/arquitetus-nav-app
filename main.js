@@ -73,6 +73,9 @@ scrollReveal.reveal(
   #about .image, #about .text,
   #memorial header, #memorial .card,
   #projetos header, #projetos .card,
+  #arquitetonicos header, #arquitetonicos .card,
+  #complementares header, #complementares .card,
+  #estruturais header, #estruturais .card,
   #externo header, #externo .externo-card
   #interno header, #interno .interno-card
   #equipe-1 header, #equipe-2 .card,
